@@ -1,6 +1,8 @@
 title: Hadia Hameed
 description: Welcome to my world!
 permalink: /blog/:year/:month/:day/:title
-show_downloads: true
+show_downloads: false
 google_analytics: UA-146885821-1
+github:
+  zip_url: https://github.com/hadiahameed
 theme: jekyll-theme-cayman
