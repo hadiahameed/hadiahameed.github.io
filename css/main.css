@@ -1,13 +1,13 @@
-body {
-    margin: 60px auto;
-    width: 70%;
-}
-
 *, *:before, *:after{
     margin: 0;
     padding: 0;
     direction: ltr;
     box-sizing: border-box;
+}
+
+body {
+    margin: 60px auto;
+    width: 70%;
 }
 
 nav ul, footer ul {
