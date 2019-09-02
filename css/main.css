@@ -50,12 +50,10 @@ ul.posts li {
     list-style: none;
 }
 
+/*  Source: https://1stwebdesigner.com/css-snippets-blockquotes/ */
+
 .ArticleCopy{
   font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
-  width: 50%;
-  margin:0 auto;
-  border: 1px solid #ddd;
-  padding: 3rem;
 }
 .ArticleCopy p {
     text-rendering: optimizeLegibility;
@@ -66,7 +64,6 @@ ul.posts li {
     font-style: italic;
     text-align: center;
     padding: 1rem 1.2rem;
-    width: 50%;  /* create space for the quotes */
     color: #4a4a4a;
     margin: 1rem auto 2rem;
     color: #4a4a4a;
