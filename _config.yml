@@ -1,5 +1,5 @@
 title: Hadia Hameed
-description: Welcome to my world!
+description:
 permalink: /blog/:year/:month/:day/:title
 show_downloads: false
 google_analytics: UA-146885821-1
