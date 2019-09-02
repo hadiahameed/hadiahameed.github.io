@@ -1,5 +1,6 @@
-name: Hadia Hameed
-markdown: kramdown
+title: Hadia Hameed
+description: Welcome to my world!
 permalink: /blog/:year/:month/:day/:title
-remote_theme: thelehhman/texture
-theme: texture
+show_downloads: true
+google_analytics: UA-146885821-1
+theme: jekyll-theme-cayman
