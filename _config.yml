@@ -28,11 +28,13 @@ defaults:
       type: pages
     values:
       layout: page
-      author: haacked
+      author: damieng
+      commenting: open
   -
     scope:
       path: '_posts'
       type: posts
     values:
       layout: post
-      author: haacked
+      author: damieng
+      commenting: open
