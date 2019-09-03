@@ -8,3 +8,31 @@ social_links:
   gmail: mailto:hadiahameeduet@gmail.com
   github: http://github.com/hadiahameed
 theme: jekyll-theme-cayman
+
+#Source: https://github.com/Haacked/haacked.com/pull/316/commits/881fa955e08dd988fd34c60537084016359a7e58
+emptyArray: []
+
+comments:
+  receiver: https://haacked-blog.azurewebsites.net/api/PostComment
+
+authors:
+  haacked:
+    name: haacked
+    email: haacked@gmail.com
+    url: https://haacked.com
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: pages
+    values:
+      layout: page
+      author: haacked
+  -
+    scope:
+      path: '_posts'
+      type: posts
+    values:
+      layout: post
+      author: haacked
