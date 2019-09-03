@@ -7,10 +7,9 @@ layout: default
   {{ content }}
   
     <!-- START OF RELEVANT PART -->
-  <div>
-    {% include comments-new.html %}
+  <div class="post {{ page.class }}">
     {% include comments.html %}
-  </div>
+</div>
   <!-- END OF RELEVANT PART -->
   
 </article>
