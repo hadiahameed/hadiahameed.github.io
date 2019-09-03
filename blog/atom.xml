@@ -4,14 +4,14 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Hank Quinlan's Blog</title>
+	<title>Hadia Hameed</title>
 	<link href="http://hadiahameed.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://hadiahameed.github.io/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://hadiahameed.github.io/blog</id>
 	<author>
 		<name>Hadia Hameed</name>
-		<email>hadiahameeduet.com</email>
+		<email>hadiahameeduet@gmail.com</email>
 	</author>
 
 	{% for post in site.posts %}
@@ -19,7 +19,7 @@ layout: feed
 			<title>{{ post.title }}</title>
 			<link href="http://hadiahameed.github.io{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://hankquinlan.github.io{{ post.id }}</id>
+			<id>http://hadiahameed.github.io{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
