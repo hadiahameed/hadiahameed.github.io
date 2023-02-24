@@ -1,0 +1,29 @@
+---
+layout: default
+title: Hadia Hameed
+---
+<p> When Richard Feynman explained the difference between “knowing something” and “knowing the name of something”, 
+  he presented his secret formula for effective learning. The trick was simple. When you learn a new concept and want 
+  to build a ground-up understanding of it, simply teach it to a child, review it, organize and simplify and then transmit it.
+</p>
+<p>So, I am excited to try the
+  <a href="https://getpocket.com/explore/item/the-secret-algorithm-behind-learning?fbclid=IwAR0hL-YkrYMUyCDGaAlMlazt9e8eJFZv_52WMq6GV0JzADlV7M6bnwRXCOk" target="_blank">Feynman technique</a> 
+  and write a weekly blog post on the most interesting things I have learned during the week. There is a deluge of resources 
+  on data science and I often find myself dabbling in exploring data science blog posts, videos, and podcasts and have a 
+  hard time remembering the things I have learned.
+</p>
+<p> However, lately, I have realized that writing gives me closure and helps 
+  me demystify complicated concepts. In my blog posts, I generally talk about a new thing I have learned 
+  during the week, followed by a small coding exercise and in the end, I share a useful thought of the week which I have 
+  somehow discovered serendipitously while <a href="https://www.goodreads.com/book/show/35133923-everything-happens-for-a-reason" target="_blank">"scrounging around in my life for things to improve"</a>. These are just informal, mini episodes summarizing my readings/research/reflections. 
+  Feel free to make them richer with relevant comments and feedback. Happy reading!
+</p>
+<h1>Latest Posts</h1>
+<ul>
+  {% for project in site.projects reversed %}
+    <li>
+      <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+      <p>{{ project.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
