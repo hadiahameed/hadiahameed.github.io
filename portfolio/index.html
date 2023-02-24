@@ -27,3 +27,14 @@ title: Hadia Hameed
     </li>
   {% endfor %}
 </ul>
+
+
+<h1>Latest Posts</h1>
+<ul>
+  {% for project in site.posts reversed %}
+    <li>
+      <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+      <p>{{ project.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
