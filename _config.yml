@@ -1,7 +1,9 @@
 title: Hadia Hameed
 description: Computer Science Geek
 permalink: /blog/:year/:month/:day/:title
-permalink: /portfolio/:year/:month/:day/:title
+collections:
+  projects:
+    output: true
 show_downloads: false
 google_analytics: UA-146885821-1
 social_links:
