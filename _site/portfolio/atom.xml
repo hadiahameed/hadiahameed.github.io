@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Hadia Hameed</title>
-	<link href="http://hadiahameed.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://hadiahameed.github.io/blog"/>
+	<link href="http://hadiahameed.github.io/portfolio/atom.xml" rel="self"/>
+	<link href="http://hadiahameed.github.io/portfolio"/>
 	<updated>2019-09-26T10:44:11-04:00</updated>
-	<id>http://hadiahameed.github.io/blog</id>
+	<id>http://hadiahameed.github.io/portfolio</id>
 	<author>
 		<name>Hadia Hameed</name>
 		<email>hadiahameeduet@gmail.com</email>
@@ -14,9 +14,9 @@
 	
 		<entry>
 			<title>Episode 4: Book Review: Dataclysm: Who We Are (When We Think No One's Looking) by Christian Rudder</title>
-			<link href="http://hadiahameed.github.io/blog/2019/09/26/episode4"/>
+			<link href="http://hadiahameed.github.io/portfolio/2019/09/26/episode4"/>
 			<updated>2019-09-26T00:00:00-04:00</updated>
-			<id>http://hadiahameed.github.io/blog/2019/09/26/episode4</id>
+			<id>http://hadiahameed.github.io/portfolio/2019/09/26/episode4</id>
 			<content type="html">&lt;p&gt;This week I read the book, &lt;a href=&quot;https://www.amazon.com/Dataclysm-When-Think-Ones-Looking/dp/B00M284HDO&quot;&gt; “Dataclysm - Who We Are (When We Think No One’s Looking)” [1]&lt;/a&gt; by Christian Rudder, and this is everything I want to remember from it.&lt;/p&gt;
 
 &lt;p&gt;[Background: Christian Rudder is the co-founder of the online dating site OkCupid. He got himself into a mess when he said he used data from his site to experiment on human beings. Earlier, he started a blog [2] to share his reflections from the data collected by OkCupid, which later turned into a book [1]. Rudder grew up in Arkansas, and like other co-founders of OkCupid, he was a math major at Harvard. In his book he explains some useful mathematical and data science concepts, using highly inappropriate examples from the world of online dating.]&lt;/p&gt;
@@ -82,9 +82,9 @@ This one in particular made me terribly sad. The data from OkCupid shows that th
 	
 		<entry>
 			<title>Episode 3: People are Not Guinea Pigs</title>
-			<link href="http://hadiahameed.github.io/blog/2019/09/19/episode3"/>
+			<link href="http://hadiahameed.github.io/portfolio/2019/09/19/episode3"/>
 			<updated>2019-09-19T00:00:00-04:00</updated>
-			<id>http://hadiahameed.github.io/blog/2019/09/19/episode3</id>
+			<id>http://hadiahameed.github.io/portfolio/2019/09/19/episode3</id>
 			<content type="html">&lt;p&gt;This week I read an article, &lt;a href=&quot;http://openingpathways.org/people-are-not-problems&quot;&gt; “People are not problems” [1]&lt;/a&gt; by Erik Johnston and Jessica Givens, and it took me on a reading spree as I hopped from one hyperlink to another.&lt;/p&gt;
 
 &lt;p&gt;[Background: Opening pathways is an open-source project around healthcare, led by patients and researchers where the Principal Investigator is a patient. They have an on-call data science team that provides technical support to people who are interested in scientific inquiry and research, especially in the field of diabetes.]&lt;/p&gt;
@@ -152,9 +152,9 @@ Academic research has long been considered a breeding ground for intellectual sn
 	
 		<entry>
 			<title>Episode 2: seq2seq Models</title>
-			<link href="http://hadiahameed.github.io/blog/2019/09/12/episode2"/>
+			<link href="http://hadiahameed.github.io/portfolio/2019/09/12/episode2"/>
 			<updated>2019-09-12T00:00:00-04:00</updated>
-			<id>http://hadiahameed.github.io/blog/2019/09/12/episode2</id>
+			<id>http://hadiahameed.github.io/portfolio/2019/09/12/episode2</id>
 			<content type="html">&lt;p&gt;This week I listened to a podcast on &lt;em&gt;“seq2seq models”&lt;/em&gt; on &lt;a href=&quot;https://player.fm/series/data-skeptic/seq2seq&quot;&gt;Data Skeptic [1]&lt;/a&gt;, and this is everything I learned from it:&lt;/p&gt;
 
 &lt;p&gt;[Background: Data Skeptic is a show that is hosted by Kyle Polich who is a data scientist. In his podcasts, Kyle explains high level machine learning and data science concepts to his wife, Linh Da Tran, who does not have a computer science background. Sometimes their pet parrot Yoshi also gets dragged into the discussions and gets slain in the name of science!]&lt;/p&gt;
@@ -221,9 +221,9 @@ Translation, Image captioning, Text summarization etc.&lt;/li&gt;
 	
 		<entry>
 			<title>Episode 1: Multi-output forecasting</title>
-			<link href="http://hadiahameed.github.io/blog/2019/09/05/episode1"/>
+			<link href="http://hadiahameed.github.io/portfolio/2019/09/05/episode1"/>
 			<updated>2019-09-05T00:00:00-04:00</updated>
-			<id>http://hadiahameed.github.io/blog/2019/09/05/episode1</id>
+			<id>http://hadiahameed.github.io/portfolio/2019/09/05/episode1</id>
 			<content type="html">&lt;p&gt;This week I read the paper &lt;em&gt;“Deep Multi-Output Forecasting - Learning to Accurately Predict Blood Glucose Trajectories”&lt;/em&gt;  [2], and this is everything I learned from it:&lt;/p&gt;
 
 &lt;p&gt;[Disclaimer: Although the paper is a bit disappointing for an applications paper on diabetes, since it lacks some crucial details about study design, computational time, demographics, offline/online training/testing speed, however, I was still able to salvage certain important things from the wreckage.]&lt;/p&gt;
