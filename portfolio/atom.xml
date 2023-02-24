@@ -5,22 +5,22 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Hadia Hameed</title>
-	<link href="http://hadiahameed.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://hadiahameed.github.io/blog"/>
+	<link href="http://hadiahameed.github.io/portfolio/atom.xml" rel="self"/>
+	<link href="http://hadiahameed.github.io/portfolio"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://hadiahameed.github.io/blog</id>
+	<id>http://hadiahameed.github.io/portfolio</id>
 	<author>
 		<name>Hadia Hameed</name>
 		<email>hadiahameeduet@gmail.com</email>
 	</author>
 
-	{% for post in site.posts %}
+	{% for project in site.projects %}
 		<entry>
-			<title>{{ post.title }}</title>
-			<link href="http://hadiahameed.github.io{{ post.url }}"/>
-			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://hadiahameed.github.io{{ post.id }}</id>
-			<content type="html">{{ post.content | xml_escape }}</content>
+			<title>{{ project.title }}</title>
+			<link href="http://hadiahameed.github.io{{ project.url }}"/>
+			<updated>{{ project.date | date_to_xmlschema }}</updated>
+			<id>http://hadiahameed.github.io{{ project.id }}</id>
+			<content type="html">{{ project.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
 
