@@ -17,13 +17,12 @@ title: Hadia Hameed
       <h2>Two Sum Problem</h2>
       <p>Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.</p>
       <div class="box">
-        <pre>
-          class Solution(object):
-          <p style="text-indent: 25px;">def twoSum(self, nums:list[int], target:int) -> list[int]:</p>
-          <p style="text-indent: 50px;">numsMap = {}</p>
-          <p style="text-indent: 50px;">n = len(nums)</p>
-          <p style="text-indent: 50px;">for i in range(n):</p>
-          <p style="text-indent: 75px;">c = target - nums[i]</p>
+        <pre>class Solution(object):
+          <li style="text-indent: 25px;">def twoSum(self, nums:list[int], target:int) -> list[int]:</li>
+          <li style="text-indent: 50px;">numsMap = {}</li>
+          <li style="text-indent: 50px;">n = len(nums)</li>
+          <a style="text-indent: 50px;">for i in range(n):</a>
+          <a style="text-indent: 75px;">c = target - nums[i]</a>
           <p style="text-indent: 75px;">if c in numsMap:</p>
           <p style="text-indent: 100px;">return [numsMap[c], i]</p>
           <p style="text-indent: 75px;">numsMap[nums[i]] = i</p>
