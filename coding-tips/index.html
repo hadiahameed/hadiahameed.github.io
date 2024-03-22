@@ -11,6 +11,27 @@ title: Hadia Hameed
     </li>
 </ul>
 
+<h3>Leetcode questions and solutions:</h3>
+<ul>
+    <li>
+      <h2>Two Sum Problem</h2>
+      <p>Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.</p>
+      <code>
+        class Solution(object):
+            def twoSum(self, nums:list[int], target:int) -> list[int]:
+                numsMap = {}
+                n = len(nums)
+                for i in range(n):
+                  c = target - nums[i]
+                  if c in numsMap:
+                    return [numsMap[c], i] 
+                  numsMap[nums[i]] = i 
+                return []</code>
+      <h2><a href="https://chrisalbon.com/machine_learning/preprocessing_structured_data/convert_pandas_categorical_column_into_integers_for_scikit-learn/" target="_blank">Converting categorical features to numerical values using LabelEncoder</a></h2>
+      <h2><a href="https://www.codecogs.com/latex/eqneditor.php" target="_blank">Online editor for converting latex equations to html scripts for adding to markdown</a></h2>
+    </li>
+</ul>
+
 <h3>Public Datasets:</h3>
 <ul>
   <li>Customer Churn Dataset (36 KB, 200 samples):
