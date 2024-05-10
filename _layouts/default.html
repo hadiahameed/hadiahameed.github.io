@@ -7,10 +7,9 @@
    <script>
     console.log(document.cookie)
     console.log('checkcookies')
-    const consentBox = 
-    document.getElementById("consentBox"); 
-    let checkCookie = 
-    document.cookie.indexOf("CookieBy=HadiaHameed"); 
+    const consentBox = document.getElementById("consentBox"); 
+    console.log(consentBox)
+    let checkCookie = document.cookie.indexOf("CookieBy=HadiaHameed"); 
     checkCookie !== -1 ? consentBox.style.display = "block" : 
     consentBox.style.display = "none";
     
