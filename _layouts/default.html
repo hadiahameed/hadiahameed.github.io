@@ -10,8 +10,9 @@
     document.getElementById("consentBox"); 
     let checkCookie = 
     document.cookie.indexOf("CookieBy=HadiaHameed"); 
-    checkCookie !== -1 ? consentBox.style.display = "none" : 
-    consentBox.style.display = "block";
+    checkCookie !== -1 ? consentBox.style.display = "block" : 
+    consentBox.style.display = "none";
+    console.log(checkCookie)
     // Define dataLayer and the gtag function.
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
