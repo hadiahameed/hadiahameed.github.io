@@ -6,14 +6,14 @@
    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
    <script>
     console.log(document.cookie)
-    console.log(consentBox)
+    console.log('checkcookies')
     const consentBox = 
     document.getElementById("consentBox"); 
     let checkCookie = 
     document.cookie.indexOf("CookieBy=HadiaHameed"); 
     checkCookie !== -1 ? consentBox.style.display = "block" : 
     consentBox.style.display = "none";
-    console.log('checkcookies')
+    
     console.log(checkCookie)
     // Define dataLayer and the gtag function.
     window.dataLayer = window.dataLayer || [];
