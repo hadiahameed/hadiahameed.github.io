@@ -38,31 +38,26 @@
         document.querySelector("#acceptbutton"); 
         const rejectBtn = 
         document.querySelector("#rejectbutton");
-        gtag('consent', 'update', {
-          'ad_storage': 'granted'
-        });
+        
 
         document.cookie = "CookieBy=HadiaHameed; max-age="
         + 60 * 60 * 24; 
-        if (document.cookie) { 
-          consentBox.classList.add("hide"); 
-        } else { 
-          alert 
-            ("Cookie can't be set! Please"+ 
-            " unblock this site from the cookie"+ 
-            " setting of your browser."); 
-        } 
+        gtag('consent', 'update', {
+        'ad_storage': 'granted'
+      });
+        consentBox.classList.add("hide"); 
+        let checkCookie = 
+          document.cookie.indexOf("CookieBy=HadiaHameed"); 
+        checkCookie !== -1 ? consentBox.classList.add("hide") : 
+          consentBox.classList.remove("hide");
+    }
 
+      function consentRejectedAdStorage() {
         rejectBtn.onclick = () => { 
         consentBox.classList.add("hide"); 
       }; 
+    }
 
-
-    let checkCookie = 
-      document.cookie.indexOf("CookieBy=HadiaHameed"); 
-    checkCookie !== -1 ? consentBox.classList.add("hide") : 
-      consentBox.classList.remove("hide");
-      }
     </script>
 
    <meta charset="UTF-8">
@@ -110,12 +105,12 @@
         </div>
     
         <div class="cookie-consent-banner__actions">
-          <button id="acceptbutton" class="cookie-consent-banner__cta">
+          <button onclick="consentGrantedAdStorage" id="acceptbutton" class="cookie-consent-banner__cta">
             OK
           </button>
         </button> 
           
-          <button id="rejectbutton" class="cookie-consent-banner__cta cookie-consent-banner__cta--secondary">
+          <button onclick="consentRejectedAdStorage" id="rejectbutton" class="cookie-consent-banner__cta cookie-consent-banner__cta--secondary">
             Decline
           </button> 
         </div>

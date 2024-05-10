@@ -31,9 +31,6 @@ body {
     margin-bottom: 16px;
   }
   
-  .cookie-consent-banner__actions {    
-  }
-  
   .cookie-consent-banner__header {
     margin-bottom: 8px;
     
@@ -95,7 +92,7 @@ body {
   .cookie-consent-banner__cta:last-child {
     margin-left: 16px;
   }
-  
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
