@@ -43,8 +43,8 @@
         consentBox.style.display = "none";
         let checkCookie = 
           document.cookie.indexOf("CookieBy=HadiaHameed"); 
-        checkCookie !== -1 ? consentBox.classList.add("hide") : 
-          consentBox.classList.remove("hide");
+        checkCookie !== -1 ? consentBox.style.display = "none" : 
+          consentBox.style.display = "block";
     }
 
       function consentRejectedAdStorage() {
