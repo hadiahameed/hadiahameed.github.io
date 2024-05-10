@@ -12,6 +12,42 @@
 
    gtag('config', 'G-ESWZTVEVMH');
    </script>
+   <script>
+      // Define dataLayer and the gtag function.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+    
+      // Set default consent to 'denied' as a placeholder
+      // Determine actual values based on your own requirements
+      gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
+        'analytics_storage': 'denied'
+      });
+    </script>
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-G-ESWZTVEVMH');</script>
+    <!-- End Google Tag Manager -->
+    
+    <!-- Create one update function for each consent parameter -->
+    <script>
+      function consentGrantedAdStorage() {
+        gtag('consent', 'update', {
+          'ad_storage': 'granted'
+        });
+      }
+    </script>
+    <!-- Invoke your consent functions when a user interacts with your banner -->
+
+
+
+
    <meta charset="UTF-8">
    {% seo %}
    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -49,6 +85,25 @@
          </a>
       </h1>
    </header>
+   <div class="cookie-consent-banner">
+      <div class="cookie-consent-banner__inner">
+        <div class="cookie-consent-banner__copy">
+          <div class="cookie-consent-banner__header">THIS WEBSITE USES COOKIES</div>
+          <div class="cookie-consent-banner__description">We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. You consent to our cookies if you continue to use our website.</div>
+        </div>
+    
+        <div class="cookie-consent-banner__actions">
+          <a href="#" class="cookie-consent-banner__cta">
+            OK
+          </a>
+          
+          <a href="#" class="cookie-consent-banner__cta cookie-consent-banner__cta--secondary">
+            Decline
+          </a>
+        </div>
+      </div>
+    </div>
+    
    <main id="content" class="main-content" role="main">
       {{ content }}
       <footer class="site-footer">
