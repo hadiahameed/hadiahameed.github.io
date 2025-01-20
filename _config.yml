@@ -1,5 +1,5 @@
 title: Hadia Hameed
-description: Computer Science Geek
+description: Data Science Geek
 permalink: /blog/:year/:month/:day/:title
 collections:
   projects:
